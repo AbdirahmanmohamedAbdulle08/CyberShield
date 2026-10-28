@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # CyberShield — Cybersecurity Awareness & Phishing Simulation Platform
 
 [![Platform](https://img.shields.io/badge/Platform-Windows%2010%2F11%20%7C%20XAMPP-blue)](#)
@@ -163,3 +164,7 @@ cybershield/
 ## 8. License & Institutional Attribution
 
 Developed for academic and cybersecurity awareness purposes at **Hormuud University**, Faculty of Computer Science & IT. Strictly intended for defensive training and authorized educational simulations.
+=======
+# CyberShield
+CyberShield is an automated cybersecurity platform that protects digital infrastructure from advanced threats through real-time monitoring and proactive defense.
+>>>>>>> 7203f6add48feab2023ab21a3c21e5e46916029e
