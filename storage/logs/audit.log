@@ -1,0 +1,32 @@
+[2026-10-27 21:27:24] IP:::1 USER:superadmin ACTION:login_success ENTITY:user #1 DATA:{"role":"super_admin"}
+[2026-10-27 21:28:09] IP:::1 USER:superadmin ACTION:campaign_created ENTITY:campaign #6 DATA:{"name":"Fake $500 Tech Grant Reward","scenario":"Fake $500 reward","status":"authorized"}
+[2026-10-27 21:29:07] IP:::1 USER:superadmin ACTION:quiz_completed ENTITY:quiz #5 DATA:{"score":1,"percentage":50,"passed":0}
+[2026-10-27 21:30:28] IP:::1 USER:superadmin ACTION:lesson_completed ENTITY:learning_module #1 DATA:{"user_id":1}
+[2026-10-27 21:30:30] IP:::1 USER:superadmin ACTION:logout ENTITY:user #1 DATA:{}
+[2026-10-27 21:30:36] IP:::1 USER:student ACTION:login_success ENTITY:user #4 DATA:{"role":"student"}
+[2026-10-27 21:31:13] IP:::1 USER:student ACTION:logout ENTITY:user #4 DATA:{}
+[2026-10-27 21:31:18] IP:::1 USER:system_or_guest ACTION:login_failed ENTITY:user #- DATA:{"attempted_identifier":"cabdirahmanjmaxamad@gmail.com"}
+[2026-10-27 21:31:25] IP:::1 USER:system_or_guest ACTION:login_failed ENTITY:user #- DATA:{"attempted_identifier":"cabdirahmanjmaxamad@gmail.com"}
+[2026-10-27 21:31:31] IP:::1 USER:system_or_guest ACTION:login_failed ENTITY:user #- DATA:{"attempted_identifier":"cabdirahmanjmaxamad@gmail.com"}
+[2026-10-27 21:31:35] IP:::1 USER:superadmin ACTION:login_success ENTITY:user #1 DATA:{"role":"super_admin"}
+[2026-10-27 21:32:34] IP:::1 USER:superadmin ACTION:settings_updated ENTITY:system_settings #global DATA:{"updated_keys":["app_name","app_tagline","institution_name","department_name","contact_email","session_lifetime","simulation_mode","consent_required"]}
+[2026-10-27 21:32:42] IP:::1 USER:superadmin ACTION:settings_updated ENTITY:system_settings #global DATA:{"updated_keys":["app_name","app_tagline","institution_name","department_name","contact_email","session_lifetime","simulation_mode","consent_required"]}
+[2026-10-27 21:32:52] IP:::1 USER:superadmin ACTION:demo_data_reset ENTITY:system #1 DATA:{}
+[2026-10-27 21:36:34] IP:::1 USER:superadmin ACTION:campaign_created ENTITY:campaign #7 DATA:{"name":"East Africa Cyber Leadership Scholarship","scenario":"Fake scholarship offer","status":"authorized"}
+[2026-10-27 21:37:49] IP:::1 USER:superadmin ACTION:logout ENTITY:user #1 DATA:{}
+[2026-10-27 21:37:55] IP:::1 USER:student ACTION:login_success ENTITY:user #4 DATA:{"role":"student"}
+[2026-10-27 21:38:04] IP:::1 USER:student ACTION:logout ENTITY:user #4 DATA:{}
+[2026-10-27 21:38:08] IP:::1 USER:superadmin ACTION:login_success ENTITY:user #1 DATA:{"role":"super_admin"}
+[2026-10-27 21:38:30] IP:::1 USER:student ACTION:login_success ENTITY:user #4 DATA:{"role":"student"}
+[2026-10-27 21:38:59] IP:::1 USER:student ACTION:login_success ENTITY:user #4 DATA:{"role":"student"}
+[2026-10-27 21:38:59] IP:::1 USER:student ACTION:unauthorized_access_attempt ENTITY:route #- DATA:{"user_role":"student","required_roles":["super_admin"],"requested_route":"/cybershield/settings"}
+[2026-10-27 21:47:15] IP:::1 USER:superadmin ACTION:login_success ENTITY:user #1 DATA:{"role":"super_admin"}
+[2026-10-27 21:48:37] IP:::1 USER:superadmin ACTION:suspicious_message_reported ENTITY:suspicious_report #4 DATA:{"reporter":"Dr. Abdirahman Omar (SOC Lead)","reason":"urgent_threat"}
+[2026-10-27 21:52:19] IP:::1 USER:superadmin ACTION:logout ENTITY:user #1 DATA:{}
+[2026-10-27 22:07:12] IP:::1 USER:system_or_guest ACTION:login_failed ENTITY:user #- DATA:{"attempted_identifier":"admin"}
+[2026-10-27 22:07:27] IP:::1 USER:system_or_guest ACTION:login_failed ENTITY:user #- DATA:{"attempted_identifier":"admin"}
+[2026-10-27 22:07:35] IP:::1 USER:system_or_guest ACTION:login_failed ENTITY:user #- DATA:{"attempted_identifier":"admin"}
+[2026-10-27 22:11:05] IP:::1 USER:superadmin ACTION:login_success ENTITY:user #1 DATA:{"role":"super_admin"}
+[2026-10-27 22:11:33] IP:::1 USER:superadmin ACTION:logout ENTITY:user #1 DATA:{}
+[2026-10-27 22:15:50] IP:::1 USER:superadmin ACTION:login_success ENTITY:user #1 DATA:{"role":"super_admin"}
+[2026-10-27 22:16:04] IP:::1 USER:student ACTION:login_success ENTITY:user #4 DATA:{"role":"student"}

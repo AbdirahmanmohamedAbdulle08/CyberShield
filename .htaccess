@@ -1,0 +1,30 @@
+# ==============================================================================
+# CyberShield — Apache Configuration & Security Hardening
+# ==============================================================================
+
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+
+    # Prevent direct access to protected directories and files
+    RewriteRule ^(config|storage|database|app|docs|tests)(\/|$) - [F,L]
+    RewriteRule ^(\.env|\.git|composer\.|package\.) - [F,L]
+
+    # Handle Front Controller
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule ^(.*)$ index.php [QSA,L]
+</IfModule>
+
+# Security Headers
+<IfModule mod_headers.c>
+    Header set X-Content-Type-Options "nosniff"
+    Header set X-Frame-Options "SAMEORIGIN"
+    Header set X-XSS-Protection "1; mode=block"
+    Header set Referrer-Policy "strict-origin-when-cross-origin"
+</IfModule>
+
+# Disable Directory Browsing
+Options -Indexes
+
+# Character Encoding
+AddDefaultCharset UTF-8
